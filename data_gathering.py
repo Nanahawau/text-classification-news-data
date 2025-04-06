@@ -61,8 +61,8 @@ def fetch_data_from_api(api_url, params=None, headers=None, filename='output.jso
         print(f"An error occurred: {e}")
 
 # Example usage
-api_url='https://www.alphavantage.co/query?function=NEWS_SENTIMENT&apikey=EM99ZLQBRCK6350E&limit=1000'
-api_url ='https://finnhub.io/api/v1/news?token=cv8vas9r01qk2jfsr5hgcv8vas9r01qk2jfsr5i0'
+api_url='https://www.alphavantage.co/query?function=NEWS_SENTIMENT&apikey=xxxxx&limit=1000'
+
 params = {}
 fetch_data_from_api(api_url, params=params, filename='alphavantage.json')
 
